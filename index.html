@@ -12,12 +12,15 @@
       height: 100vh;
       margin: 0;
     }
+
     iframe {
-      width: 50%;
-      height: 88%;
+      aspect-ratio: 16 / 9;  /* wymusza proporcje 16:9 */
+      width: 80vw;           /* dopasowanie do szerokości ekranu */
+      max-width: 1200px;     /* maksymalna szerokość */
+      height: auto;          /* wysokość automatyczna wg proporcji */
       border: none;
       border-radius: 12px;
-    }
+    }00000000
   </style>
 </head>
 <body>
